@@ -1,0 +1,12 @@
+# Ignoring .env file which contains sensitive information
+server/.env
+
+# Ignoring node_modules directory which contains installed dependencies
+client/node_modules/
+
+# Ignoring pycache directory which contains compiled Python files
+server/__pycache__/
+server/**/*.pyc
+
+# Ignoring .vscode directory which contains IDE settings
+server/.vscode/
